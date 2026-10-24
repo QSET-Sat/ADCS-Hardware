@@ -665,7 +665,7 @@
         "uuid": "ad8674f1-23de-4bd4-9414-642ec663a6a4"
       }
     ],
-    "used_designators": "#PWR1-29,C1-17,Q1-4,R1-21,U1-11",
+    "used_designators": "#PWR1-31,C1-17,P1,Q1-4,R1-21,U1-14",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,10 @@
     [
       "72dfb1d9-9a43-4348-a5c9-5e71493123b0",
       "Actuator"
+    ],
+    [
+      "136f9b62-6eb8-4619-91d9-70241089ac8b",
+      "Debug"
     ]
   ],
   "text_variables": {},

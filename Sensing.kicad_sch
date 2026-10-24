@@ -2624,7 +2624,7 @@
 		)
 		(uuid "35542154-7ab4-4e60-b4de-4d2e3b1bdf36")
 	)
-	(text "Current Sensing 5V\n"
+	(text "Current Limiting 5V\n"
 		(exclude_from_sim no)
 		(at 24.13 14.986 0)
 		(effects
@@ -2644,7 +2644,7 @@
 		)
 		(uuid "939091ef-4748-44d3-819e-ce7c15dc0f7a")
 	)
-	(text "Current Sensing 3.3V\n"
+	(text "Current Limiting 3.3V\n"
 		(exclude_from_sim no)
 		(at 152.4 14.986 0)
 		(effects
@@ -5365,6 +5365,200 @@
 	)
 	(symbol
 		(lib_id "DB:Power/2606")
+		(at 303.53 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b52267-38e7-497d-8759-80f345d446f2")
+		(property "Reference" "U12"
+			(at 331.47 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA226AIDGSR"
+			(at 331.47 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Leaded:DGS10"
+			(at 316.992 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina226"
+			(at 315.214 21.844 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "16-Bit I2C Bus Voltage & Current Monitor with Hardware Alert"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INA226AIDGSR"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "10-VSSOP"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint 2" "Leaded:DGS10-M"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint 3" "Leaded:DGS10-L"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternate Symbol" ""
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category ID" "19"
+			(at 303.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c955bd9c-1615-40d0-a9ce-eb8d2db1c4c3")
+		)
+		(pin "6"
+			(uuid "8435560b-6594-4f66-9a27-f769bb7660af")
+		)
+		(pin "10"
+			(uuid "1a825c22-fc7c-41ed-aa6c-a197fff8f945")
+		)
+		(pin "9"
+			(uuid "d0303715-52ce-4901-b5bf-0d71b123c4d4")
+		)
+		(pin "4"
+			(uuid "bcb545be-ab70-4398-98a0-baa3b990046e")
+		)
+		(pin "5"
+			(uuid "53eb6270-f652-4fd5-b8c1-50cd098943cf")
+		)
+		(pin "3"
+			(uuid "52ebb149-7a48-4ce5-a1f9-a76b49cb357a")
+		)
+		(pin "2"
+			(uuid "33a58617-1dfb-4bab-9d4e-e8e3073fd58e")
+		)
+		(pin "8"
+			(uuid "9362f2fb-5f2d-426e-a2fe-ac5d6cc13fd0")
+		)
+		(pin "7"
+			(uuid "d66c33df-0ec3-45e1-bb43-d9a987981a78")
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9fa4302e-2582-48ee-9447-cdb043463b27"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DB:Power/2606")
 		(at 26.67 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -5632,6 +5826,200 @@
 			(project "ADCS_Magnetorquer_Board"
 				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9fa4302e-2582-48ee-9447-cdb043463b27"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DB:Power/2606")
+		(at 304.8 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f4e0562-f49b-4e42-bc9e-2bb7e3557fab")
+		(property "Reference" "U13"
+			(at 332.74 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA226AIDGSR"
+			(at 332.74 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Leaded:DGS10"
+			(at 318.262 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina226"
+			(at 316.484 51.054 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "16-Bit I2C Bus Voltage & Current Monitor with Hardware Alert"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INA226AIDGSR"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "10-VSSOP"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint 2" "Leaded:DGS10-M"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint 3" "Leaded:DGS10-L"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternate Symbol" ""
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category ID" "19"
+			(at 304.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee874542-857a-4a15-b06a-be703c6d9fd0")
+		)
+		(pin "6"
+			(uuid "c374d664-6f92-4e31-baec-23d898ecd4af")
+		)
+		(pin "10"
+			(uuid "272b0d5c-8dbf-4ac0-91ee-f567a8617dce")
+		)
+		(pin "9"
+			(uuid "eac15174-f48b-4397-880c-ad1178df988c")
+		)
+		(pin "4"
+			(uuid "f4ab0de0-7166-4654-8a62-e2916910c930")
+		)
+		(pin "5"
+			(uuid "3698cc01-ebb3-4abc-a979-93529ebbbb68")
+		)
+		(pin "3"
+			(uuid "57da226c-3df8-4a56-99bd-9c181d604762")
+		)
+		(pin "2"
+			(uuid "2f94a919-7564-4436-8f3f-e55457b42afe")
+		)
+		(pin "8"
+			(uuid "c4bec520-7f4d-4d9e-9b21-954c34204ec4")
+		)
+		(pin "7"
+			(uuid "cba6b623-2cf3-4cf6-b575-bd792b70cf81")
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9fa4302e-2582-48ee-9447-cdb043463b27"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -8056,6 +8444,200 @@
 			(project "ADCS_Magnetorquer_Board"
 				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9fa4302e-2582-48ee-9447-cdb043463b27"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DB:Power/2606")
+		(at 303.53 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928bf00b-ea00-4609-9ff2-394e8b4cb4db")
+		(property "Reference" "U14"
+			(at 331.47 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA226AIDGSR"
+			(at 331.47 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Leaded:DGS10"
+			(at 316.992 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina226"
+			(at 315.214 77.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "16-Bit I2C Bus Voltage & Current Monitor with Hardware Alert"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INA226AIDGSR"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "10-VSSOP"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Status" "Active"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint 2" "Leaded:DGS10-M"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint 3" "Leaded:DGS10-L"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternate Symbol" ""
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category ID" "19"
+			(at 303.53 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca3df1c2-6387-4078-9ce6-d6e4243e7ed1")
+		)
+		(pin "6"
+			(uuid "a7c688c7-8fca-48e9-b44c-7cdcb202bb9c")
+		)
+		(pin "10"
+			(uuid "c3d18fcc-a209-4b24-983d-e63e39b886a4")
+		)
+		(pin "9"
+			(uuid "18b33ae9-fe4f-4c36-8c40-5c43839bc9dc")
+		)
+		(pin "4"
+			(uuid "4006a46d-a1c2-4dc7-bc6e-e2cfb6eb4b90")
+		)
+		(pin "5"
+			(uuid "85dc1923-b41e-4ffe-9009-7d85d390ce63")
+		)
+		(pin "3"
+			(uuid "14737fca-01f3-414e-ae1c-d7bb4921f7ea")
+		)
+		(pin "2"
+			(uuid "701b36d1-fd7b-4aa8-924c-9d637ffd7c51")
+		)
+		(pin "8"
+			(uuid "dbb5979c-ed14-4c44-8726-9370cfb6afbe")
+		)
+		(pin "7"
+			(uuid "50292fad-7870-4ab2-b5c6-72114d0dc6f4")
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9fa4302e-2582-48ee-9447-cdb043463b27"
+					(reference "U14")
 					(unit 1)
 				)
 			)
