@@ -24,7 +24,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "136f9b62-6eb8-4619-91d9-70241089ac8b")
-		(property "Sheetname" "Debug"
+		(property "Sheetname" "Communications"
 			(at 115.57 69.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
