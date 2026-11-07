@@ -2387,16 +2387,6 @@
 		)
 		(uuid "726669a1-5c79-4cef-9ccf-9d07ec0b365b")
 	)
-	(label "MCU_SWCLK"
-		(at 55.88 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ccd85ac-5198-4c58-a7d5-8c3ef017643a")
-	)
 	(label "MCU_NRST"
 		(at 55.88 46.99 0)
 		(effects
@@ -2437,15 +2427,27 @@
 		)
 		(uuid "ce58e29e-4926-409c-bd6e-9dafe8b73859")
 	)
-	(label "MCU_SWDIO"
+	(hierarchical_label "SWDIO"
+		(shape input)
 		(at 55.88 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d9445db4-732d-47f9-944e-a8a93f9fe4a4")
+		(uuid "3981547d-5356-443e-8bbf-34f17a2f2bbc")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 55.88 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1c446ac-649e-4c16-bc34-02cfd0c905a6")
 	)
 	(symbol
 		(lib_id "Capacitor:Capacitor_POL")

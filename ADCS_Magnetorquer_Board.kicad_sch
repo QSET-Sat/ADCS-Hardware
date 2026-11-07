@@ -8,6 +8,26 @@
 		(title "Magnetorquer Board")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac0d8d1-65af-4941-b3b9-2cdb39d5b351")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5022f38-993b-4e28-b563-72ff0013b4d2")
+	)
 	(sheet
 		(at 115.57 69.85)
 		(size 66.04 50.8)
@@ -46,10 +66,76 @@
 				(justify left top)
 			)
 		)
+		(pin "SWCLK" input
+			(at 115.57 93.98 180)
+			(uuid "c0e4023e-ff89-4b3b-a2ae-286afda5ffbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 115.57 91.44 180)
+			(uuid "3ddba72e-a3e5-4f96-adec-3cd077a7ccb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ADCS_Magnetorquer_Board"
 				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 144.78)
+		(size 80.01 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "42143330-50d3-42af-ba6b-3a92ca2cacea")
+		(property "Sheetname" "Telemetry"
+			(at 25.4 144.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Telemetry.kicad_sch"
+			(at 25.4 197.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4"
+					(page "6")
 				)
 			)
 		)
@@ -136,6 +222,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SWDIO" input
+			(at 106.68 91.44 0)
+			(uuid "87625589-2fea-48e0-b457-c79006534502")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" input
+			(at 106.68 93.98 0)
+			(uuid "d2c715d4-5c83-4726-a33a-c8c3f77fec0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

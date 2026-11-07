@@ -49,16 +49,14 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
-    "repo_type": "",
+    "repo_type": "https",
     "repo_username": "",
     "ssh_key": ""
   },
@@ -68,6 +66,10 @@
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
+      false,
+      false,
       false,
       false,
       false,
@@ -89,9 +91,28 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11,
+      12,
+      13
     ],
-    "col_widths": [],
+    "col_widths": [
+      222,
+      207,
+      136,
+      92,
+      136,
+      136,
+      136,
+      98,
+      136,
+      136,
+      136,
+      136,
+      136,
+      307
+    ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -103,7 +124,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": -1
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
