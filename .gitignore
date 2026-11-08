@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------------------
+# ADCS-Hardware — KiCad project
+# ---------------------------------------------------------------------------
+
+# --- KiCad per-user / transient state --------------------------------------
+# Local project settings: window layout, last-used layers, zoom, open tabs.
+# Machine-specific, not needed by anyone else working on the board.
+*.kicad_prl
+
+# Lock files created while a project is open (they contain your hostname
+# and username, and go stale if KiCad crashes).
+~*.lck
+*.lck
+
+# Autosave and crash-recovery files
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-bak
+*.bak
+*~
+
+# --- KiCad backups and history ---------------------------------------------
+# Automatic project backup archives (Preferences > Project Backup)
+*-backups/
+
+# Snapshots written by KiCad's Local History feature (File > Local History)
+.history/
+
+# Folders created when restoring files after a crash / bad edit
+_restore_backup_*/
+
+# Caches rebuilt automatically on first open
+fp-info-cache
+fp-wizard
+
+# --- Generated fabrication / export output ---------------------------------
+# Uncomment these if you plot gerbers, drill files, or 3D exports into the
+# repo. Leave them commented if you commit fab outputs on purpose.
+# *.gbr
+# *.gbrjob
+# *.drl
+# *.nc
+# *.pos
+# *.step
+# *.stp
+# plots/
+# gerbers/
+
+# --- Office / Excel lock files ---------------------------------------------
+# Excel creates these next to an open workbook; they are not real documents.
+~$*.xlsx
+~$*.xls
+
+# --- OS and editor junk ----------------------------------------------------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+._*
+
+.vscode/
+.idea/
