@@ -5681,4 +5681,322 @@
 			)
 		)
 	)
+	(sheet
+		(at 233.68 140.97)
+		(size 38.735 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2ba31285-13f6-44bb-98e5-55ae913d15ee")
+		(property "Sheetname" "Driver1"
+			(at 233.68 140.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 233.68 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 233.68 146.685 180)
+			(uuid "d6ebed8a-989a-4ebf-b5e7-a09a28614d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 272.415 149.225 0)
+			(uuid "459d2ed2-33a1-41c4-8974-35992ee02599")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN2" input
+			(at 233.68 149.225 180)
+			(uuid "7f46e69c-6633-4226-8381-8a7d70845648")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT2" output
+			(at 272.415 156.845 0)
+			(uuid "2ffbc68f-eebf-493c-bc9e-f781944ae1a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SLEEP" input
+			(at 233.68 151.765 180)
+			(uuid "9e9f352d-0124-4f86-9acb-3a3683058349")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VM" input
+			(at 233.68 154.305 180)
+			(uuid "e6c103d8-ce2b-4489-8708-beda3dd037dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/72dfb1d9-9a43-4348-a5c9-5e71493123b0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 290.195 142.24)
+		(size 38.735 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d93b8a3f-f7ad-44a2-b8ce-88c40ef5f68b")
+		(property "Sheetname" "Driver2"
+			(at 290.195 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 290.195 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 290.195 147.955 180)
+			(uuid "f44565ab-b29f-4dba-a2ef-4858e1bbd3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 328.93 150.495 0)
+			(uuid "575d9a3a-07a9-48dd-b0f3-72bdcd9f476e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN2" input
+			(at 290.195 150.495 180)
+			(uuid "61825ee0-3cf2-440d-8a5f-9c17507ac92d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT2" output
+			(at 328.93 158.115 0)
+			(uuid "e3c6c034-fdc2-410c-8060-4ae74e50ea2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SLEEP" input
+			(at 290.195 153.035 180)
+			(uuid "03f42607-4d02-401e-9613-df7332c3f5cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VM" input
+			(at 290.195 155.575 180)
+			(uuid "74359d78-712e-40f4-bf5a-687b55e960ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/72dfb1d9-9a43-4348-a5c9-5e71493123b0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 172.085)
+		(size 38.735 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb0a4887-d2b5-4700-9bd2-d132501259f5")
+		(property "Sheetname" "Driver3"
+			(at 233.68 171.3734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 233.68 194.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 233.68 177.8 180)
+			(uuid "8a6ffea8-56d0-4ded-8235-800c08602335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 272.415 180.34 0)
+			(uuid "97938e0c-7a00-415f-9a98-c33b1b6280df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN2" input
+			(at 233.68 180.34 180)
+			(uuid "c8649806-ae9f-4460-aad6-71d2c52aecc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT2" output
+			(at 272.415 187.96 0)
+			(uuid "5c524d5d-bbc5-414c-bdef-e7543af543ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SLEEP" input
+			(at 233.68 182.88 180)
+			(uuid "aeb8ed42-965d-430b-a69f-24a6115cb8a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VM" input
+			(at 233.68 185.42 180)
+			(uuid "e8fdab03-adb2-4977-9af8-c1a814089d12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/72dfb1d9-9a43-4348-a5c9-5e71493123b0"
+					(page "9")
+				)
+			)
+		)
+	)
 )
