@@ -3160,6 +3160,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 148.59) (xy 175.26 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08758d1e-0b66-49b9-9153-9fbecdde7cf9")
+	)
+	(wire
+		(pts
 			(xy 201.93 86.36) (xy 214.63 86.36)
 		)
 		(stroke
@@ -3370,6 +3380,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 156.21) (xy 175.26 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a10d35a-774b-4fa1-9231-0a7dedbf826e")
+	)
+	(wire
+		(pts
 			(xy 210.82 156.21) (xy 226.06 156.21)
 		)
 		(stroke
@@ -3410,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 156.21) (xy 165.1 156.21)
+			(xy 138.43 156.21) (xy 152.4 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3610,6 +3630,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 153.67) (xy 175.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df06578-bdd1-46f0-9f84-8c6c1e26e257")
+	)
+	(wire
+		(pts
+			(xy 166.37 151.13) (xy 175.26 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb3062f-a01f-471b-96d4-12a3e620c5d5")
+	)
+	(wire
+		(pts
 			(xy 210.82 120.65) (xy 226.06 120.65)
 		)
 		(stroke
@@ -3740,7 +3780,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 158.75) (xy 175.26 158.75)
+			(xy 152.4 158.75) (xy 175.26 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3880,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 156.21) (xy 165.1 158.75)
+			(xy 152.4 156.21) (xy 152.4 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4347,6 +4387,17 @@
 		)
 		(uuid "264b69a1-1883-4889-938b-4d23c48cb3ac")
 	)
+	(hierarchical_label "Y_NFAULT"
+		(shape input)
+		(at 166.37 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32df371e-fcf7-4355-82c3-361d63342319")
+	)
 	(hierarchical_label "Z_NSLEEP"
 		(shape output)
 		(at 226.06 158.75 0)
@@ -4369,6 +4420,17 @@
 		)
 		(uuid "3a3dae92-1fae-46f4-827e-e10104818796")
 	)
+	(hierarchical_label "X_NFAULT"
+		(shape input)
+		(at 166.37 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4160fc15-7453-43b3-9e62-e8000fcea4f1")
+	)
 	(hierarchical_label "Z_IN1"
 		(shape output)
 		(at 226.06 181.61 0)
@@ -4390,6 +4452,17 @@
 			(justify right)
 		)
 		(uuid "49593062-d939-4864-84d4-f3519099080e")
+	)
+	(hierarchical_label "ALERT_3V3"
+		(shape input)
+		(at 166.37 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5454726e-5051-455b-b9db-b015ba6e58e9")
 	)
 	(hierarchical_label "CAN1_TX"
 		(shape output)
@@ -4445,6 +4518,17 @@
 			(justify left)
 		)
 		(uuid "6dd9c1fb-9189-4361-839f-5be984799882")
+	)
+	(hierarchical_label "ALERT_TEMP"
+		(shape input)
+		(at 166.37 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77b25731-f8d3-42f3-93ad-6e72a6a25cc6")
 	)
 	(hierarchical_label "Y_IN1"
 		(shape output)
