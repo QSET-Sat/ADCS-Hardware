@@ -4248,6 +4248,16 @@
 		)
 		(uuid "244f237d-436d-45bd-8f92-00005708420e")
 	)
+	(label "CAN1_S"
+		(at 350.52 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24a44cc3-437f-4511-ae95-70f804574ed8")
+	)
 	(label "CS_IMU"
 		(at 350.52 158.75 180)
 		(effects
@@ -4257,6 +4267,16 @@
 			(justify right bottom)
 		)
 		(uuid "2b5a6a36-682a-4658-aa30-02e41795f743")
+	)
+	(label "CAN2_S"
+		(at 367.03 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f15dafe-8906-4ccd-adb6-e1d31f89cfcb")
 	)
 	(label "CS_MRAM"
 		(at 367.03 158.75 180)
@@ -6384,6 +6404,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 367.03 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40aad447-8cc6-4e96-94b4-cc458a63da7a")
+		(property "Reference" "R48"
+			(at 369.57 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 369.57 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.252 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 367.03 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "421510df-a173-4a40-8689-6cf22295f379")
+		)
+		(pin "1"
+			(uuid "7730f981-bbd3-470e-b48f-c2d8ea6e06bb")
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9e167a19-6ada-4d37-b2dd-73563b0316af"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 350.52 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -7026,6 +7128,88 @@
 			(project "ADCS_Magnetorquer_Board"
 				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9e167a19-6ada-4d37-b2dd-73563b0316af"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 350.52 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ff66c41-cda3-4e70-9f6b-97ed88734f03")
+		(property "Reference" "R47"
+			(at 353.06 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 353.06 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 348.742 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 350.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "86617169-fe35-46ab-a1ad-0b6b6c74a375")
+		)
+		(pin "1"
+			(uuid "efae5f9f-aca5-4c47-aa26-adcdbd54a746")
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9e167a19-6ada-4d37-b2dd-73563b0316af"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -8253,6 +8437,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 350.52 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b83c6fac-a090-4570-96db-64aecd38cf6b")
+		(property "Reference" "#PWR0111"
+			(at 350.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 350.52 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 350.52 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a506e12-c11a-41d4-bc14-b4c81b99be8b")
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9e167a19-6ada-4d37-b2dd-73563b0316af"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 365.76 109.22 0)
 		(unit 1)
@@ -9233,6 +9495,84 @@
 			(project "ADCS_Magnetorquer_Board"
 				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9e167a19-6ada-4d37-b2dd-73563b0316af"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 367.03 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9c3a58b-58f7-4cd1-a614-0d192a7053da")
+		(property "Reference" "#PWR0112"
+			(at 367.03 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 367.03 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 367.03 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db2473b3-7c3c-4d04-80ee-2b06b0c377f5")
+		)
+		(instances
+			(project "ADCS_Magnetorquer_Board"
+				(path "/ad8674f1-23de-4bd4-9414-642ec663a6a4/9e167a19-6ada-4d37-b2dd-73563b0316af"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
