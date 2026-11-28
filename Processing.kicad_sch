@@ -3256,6 +3256,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 171.45) (xy 226.06 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281411af-de2d-40fd-b780-7a8b1c347e83")
+	)
+	(wire
+		(pts
 			(xy 200.66 91.44) (xy 224.79 91.44)
 		)
 		(stroke
@@ -3303,6 +3313,16 @@
 			(type default)
 		)
 		(uuid "45a25505-d29c-42fa-b6cd-862b022ad970")
+	)
+	(wire
+		(pts
+			(xy 210.82 173.99) (xy 226.06 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f499c7-98bc-4bab-a7e1-0d14536cf4ef")
 	)
 	(wire
 		(pts
@@ -4188,6 +4208,17 @@
 		)
 		(uuid "ce760fcb-98df-4a8a-8add-e27b22717a72")
 	)
+	(hierarchical_label "CAN2_S"
+		(shape output)
+		(at 226.06 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ceb476ed-5992-4fc1-8acf-c0ceb2c3cf94")
+	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
 		(at 219.71 115.57 0)
@@ -4198,6 +4229,17 @@
 			(justify left)
 		)
 		(uuid "d3e01a0b-e8f5-4eac-9027-90eb9dcaf09d")
+	)
+	(hierarchical_label "CAN1_S"
+		(shape output)
+		(at 226.06 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "defe4965-221c-479b-8001-fe9ee3dcae4a")
 	)
 	(hierarchical_label "MCU_SWO"
 		(shape output)
