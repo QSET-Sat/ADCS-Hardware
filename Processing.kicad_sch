@@ -3252,16 +3252,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 115.57) (xy 227.33 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65aa165c-d2f5-4576-b00f-b6748ba05df4")
-	)
-	(wire
-		(pts
 			(xy 347.98 40.64) (xy 347.98 50.8)
 		)
 		(stroke
@@ -3359,6 +3349,16 @@
 			(type default)
 		)
 		(uuid "85080261-1619-4875-921e-b23e48556b82")
+	)
+	(wire
+		(pts
+			(xy 210.82 123.19) (xy 227.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854a6263-c255-41a5-8ed4-00adc930e746")
 	)
 	(wire
 		(pts
@@ -3642,16 +3642,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 105.41) (xy 210.82 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dffe5ec7-5108-4df9-9571-9710b5e35eef")
-	)
-	(wire
-		(pts
 			(xy 152.4 113.03) (xy 167.64 113.03)
 		)
 		(stroke
@@ -3752,6 +3742,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 115.57) (xy 219.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59728f1-54ac-4dbf-ba30-31233e129061")
+	)
+	(wire
+		(pts
 			(xy 142.24 114.3) (xy 124.46 114.3)
 		)
 		(stroke
@@ -3821,7 +3821,7 @@
 		(uuid "76034269-0ae3-4677-bc2a-5635c20f390d")
 	)
 	(label "GREEN-LED"
-		(at 227.33 115.57 180)
+		(at 227.33 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3970,7 +3970,7 @@
 	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
-		(at 232.41 105.41 0)
+		(at 219.71 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
