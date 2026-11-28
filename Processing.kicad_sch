@@ -3196,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 125.73) (xy 227.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ddd6b9-7ad6-4242-9dcb-ced5991fe1fa")
+	)
+	(wire
+		(pts
 			(xy 218.44 138.43) (xy 210.82 138.43)
 		)
 		(stroke
@@ -3333,6 +3343,16 @@
 			(type default)
 		)
 		(uuid "64136ee8-b547-4b3c-b0bf-2655590aa305")
+	)
+	(wire
+		(pts
+			(xy 210.82 128.27) (xy 227.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e4f9bc-cbb6-4941-b5d4-8cb53b6904ff")
 	)
 	(wire
 		(pts
@@ -3716,6 +3736,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 153.67) (xy 218.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67b91ef-2223-4eab-8b68-408016de1f27")
+	)
+	(wire
+		(pts
 			(xy 361.95 66.04) (xy 361.95 77.47)
 		)
 		(stroke
@@ -3975,6 +4005,28 @@
 		)
 		(uuid "06ce9c07-7d0f-4fa2-a0b3-16006f2a291b")
 	)
+	(hierarchical_label "MCU_RX"
+		(shape input)
+		(at 227.33 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bb660c6-caa0-4e28-91ba-5d9686e1055a")
+	)
+	(hierarchical_label "MCU_TX"
+		(shape output)
+		(at 227.33 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21346531-249d-4b6c-a617-0bce6b2bec95")
+	)
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 218.44 138.43 0)
@@ -4062,6 +4114,17 @@
 			(justify left)
 		)
 		(uuid "d3e01a0b-e8f5-4eac-9027-90eb9dcaf09d")
+	)
+	(hierarchical_label "MCU_SWO"
+		(shape output)
+		(at 218.44 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f25b285d-3556-4106-bec6-03c7dade0068")
 	)
 	(symbol
 		(lib_id "Device:C")
