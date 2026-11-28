@@ -3236,6 +3236,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 133.35) (xy 227.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f58d149-ef53-4a4c-9148-b9170f20ab2c")
+	)
+	(wire
+		(pts
 			(xy 36.83 31.75) (xy 36.83 36.83)
 		)
 		(stroke
@@ -3293,6 +3303,16 @@
 			(type default)
 		)
 		(uuid "45a25505-d29c-42fa-b6cd-862b022ad970")
+	)
+	(wire
+		(pts
+			(xy 210.82 176.53) (xy 226.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541c499e-4399-4cbb-8df6-ee26eca59ae5")
 	)
 	(wire
 		(pts
@@ -3413,6 +3433,16 @@
 			(type default)
 		)
 		(uuid "72562ec1-8056-4f6a-8461-918ff77f5d6d")
+	)
+	(wire
+		(pts
+			(xy 210.82 179.07) (xy 226.06 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ce55b8-bbbf-4d59-be80-036bad6ab26b")
 	)
 	(wire
 		(pts
@@ -3716,6 +3746,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 130.81) (xy 227.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd56153c-dba2-433a-bcc6-6169f5a84ef6")
+	)
+	(wire
+		(pts
 			(xy 193.04 87.63) (xy 195.58 87.63)
 		)
 		(stroke
@@ -4005,6 +4045,17 @@
 		)
 		(uuid "06ce9c07-7d0f-4fa2-a0b3-16006f2a291b")
 	)
+	(hierarchical_label "CAN2_TX"
+		(shape output)
+		(at 226.06 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16e65320-f176-456c-8b96-5a72ded995fa")
+	)
 	(hierarchical_label "MCU_RX"
 		(shape input)
 		(at 227.33 128.27 0)
@@ -4060,6 +4111,28 @@
 		)
 		(uuid "49593062-d939-4864-84d4-f3519099080e")
 	)
+	(hierarchical_label "CAN1_TX"
+		(shape output)
+		(at 227.33 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "547a193c-5e8c-430e-a723-4ffa4805c221")
+	)
+	(hierarchical_label "CAN1_RX"
+		(shape input)
+		(at 227.33 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "620bf970-f556-4a5e-b0be-e709f1b0f218")
+	)
 	(hierarchical_label "IMU_CLKIN"
 		(shape output)
 		(at 218.44 146.05 0)
@@ -4092,6 +4165,17 @@
 			(justify left)
 		)
 		(uuid "993322e5-d87d-4d64-bf1f-291557d88ce3")
+	)
+	(hierarchical_label "CAN2_RX"
+		(shape input)
+		(at 226.06 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac4079c0-d231-4da4-88cc-8240ef07be5e")
 	)
 	(hierarchical_label "IMU_INT1"
 		(shape input)
